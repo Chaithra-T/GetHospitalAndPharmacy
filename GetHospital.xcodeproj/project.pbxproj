@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9954A8B724C04F890058A020 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954A8B624C04F890058A020 /* LocationManager.swift */; };
+		9954A8B924C071450058A020 /* Covid19ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954A8B824C071450058A020 /* Covid19ListViewController.swift */; };
+		9955FAC724C07654000E92D9 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955FAC624C07654000E92D9 /* NetworkOperation.swift */; };
+		9955FAC924C078F1000E92D9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955FAC824C078F1000E92D9 /* Errors.swift */; };
+		9955FACB24C07C94000E92D9 /* CovidDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9955FACA24C07C94000E92D9 /* CovidDetails.swift */; };
+		9958049D24BEEE2600190AF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9958049C24BEEE2600190AF8 /* GoogleService-Info.plist */; };
+		99E5906F24BF048B0039FFB6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99E5906E24BF048B0039FFB6 /* Localizable.strings */; };
+		99E5907A24BF06510039FFB6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5907424BF06500039FFB6 /* MapViewController.swift */; };
+		99E5907C24BF06510039FFB6 /* SearchResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5907624BF06510039FFB6 /* SearchResultTableViewController.swift */; };
+		99E5907D24BF06510039FFB6 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5907724BF06510039FFB6 /* PlaceAnnotation.swift */; };
+		99E5907E24BF06510039FFB6 /* MKPlacemark+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5907824BF06510039FFB6 /* MKPlacemark+Extension.swift */; };
+		99E5907F24BF06510039FFB6 /* SuggestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5907924BF06510039FFB6 /* SuggestionsTableViewController.swift */; };
+		99E5908324BF07390039FFB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E5908224BF07390039FFB6 /* Main.storyboard */; };
+		99EB885824BDAD7D00AD2301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EB885724BDAD7D00AD2301 /* AppDelegate.swift */; };
+		99EB885A24BDAD7D00AD2301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EB885924BDAD7D00AD2301 /* SceneDelegate.swift */; };
+		99EB885C24BDAD7D00AD2301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EB885B24BDAD7D00AD2301 /* ViewController.swift */; };
+		99EB886224BDAD7D00AD2301 /* GetHospital.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99EB886024BDAD7D00AD2301 /* GetHospital.xcdatamodeld */; };
+		99EB886424BDAD7F00AD2301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99EB886324BDAD7F00AD2301 /* Assets.xcassets */; };
+		99EB886724BDAD7F00AD2301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99EB886524BDAD7F00AD2301 /* LaunchScreen.storyboard */; };
+		F7D2B52DEA371B609220A5AB /* Pods_GetHospital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5750C550DF1ADD5B71BDACD9 /* Pods_GetHospital.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5750C550DF1ADD5B71BDACD9 /* Pods_GetHospital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetHospital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94BDB754505801962A010862 /* Pods-GetHospital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHospital.release.xcconfig"; path = "Target Support Files/Pods-GetHospital/Pods-GetHospital.release.xcconfig"; sourceTree = "<group>"; };
+		9954A8B624C04F890058A020 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9954A8B824C071450058A020 /* Covid19ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Covid19ListViewController.swift; sourceTree = "<group>"; };
+		9955FAC624C07654000E92D9 /* NetworkOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		9955FAC824C078F1000E92D9 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		9955FACA24C07C94000E92D9 /* CovidDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDetails.swift; sourceTree = "<group>"; };
+		9958049C24BEEE2600190AF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99E5906E24BF048B0039FFB6 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		99E5907424BF06500039FFB6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		99E5907624BF06510039FFB6 /* SearchResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewController.swift; sourceTree = "<group>"; };
+		99E5907724BF06510039FFB6 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		99E5907824BF06510039FFB6 /* MKPlacemark+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKPlacemark+Extension.swift"; sourceTree = "<group>"; };
+		99E5907924BF06510039FFB6 /* SuggestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionsTableViewController.swift; sourceTree = "<group>"; };
+		99E5908224BF07390039FFB6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		99EB885424BDAD7D00AD2301 /* GetHospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetHospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EB885724BDAD7D00AD2301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99EB885924BDAD7D00AD2301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99EB885B24BDAD7D00AD2301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99EB886124BDAD7D00AD2301 /* GetHospital.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GetHospital.xcdatamodel; sourceTree = "<group>"; };
+		99EB886324BDAD7F00AD2301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99EB886624BDAD7F00AD2301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99EB886824BDAD7F00AD2301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9950150E2520710491AB38B /* Pods-GetHospital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetHospital.debug.xcconfig"; path = "Target Support Files/Pods-GetHospital/Pods-GetHospital.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99EB885124BDAD7D00AD2301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D2B52DEA371B609220A5AB /* Pods_GetHospital.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B5510C27409C9DDE41C4DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5750C550DF1ADD5B71BDACD9 /* Pods_GetHospital.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78168E07CD6E8E1F147DE2E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9950150E2520710491AB38B /* Pods-GetHospital.debug.xcconfig */,
+				94BDB754505801962A010862 /* Pods-GetHospital.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		994FC68024C3052D0073E055 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				99EB885724BDAD7D00AD2301 /* AppDelegate.swift */,
+				99EB885924BDAD7D00AD2301 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		994FC68124C3056D0073E055 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				99E5907424BF06500039FFB6 /* MapViewController.swift */,
+				99E5907624BF06510039FFB6 /* SearchResultTableViewController.swift */,
+				99E5907924BF06510039FFB6 /* SuggestionsTableViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		994FC68224C305A60073E055 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99E5907824BF06510039FFB6 /* MKPlacemark+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		994FC68324C308850073E055 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9954A8B624C04F890058A020 /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		994FC68424C308940073E055 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				99E5907724BF06510039FFB6 /* PlaceAnnotation.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		994FC68524C309710073E055 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9955FAC824C078F1000E92D9 /* Errors.swift */,
+				9955FAC624C07654000E92D9 /* NetworkOperation.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		994FC68624C3098F0073E055 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9955FACA24C07C94000E92D9 /* CovidDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		994FC68724C309A00073E055 /* Covid */ = {
+			isa = PBXGroup;
+			children = (
+				994FC68624C3098F0073E055 /* Model */,
+				9954A8B824C071450058A020 /* Covid19ListViewController.swift */,
+			);
+			path = Covid;
+			sourceTree = "<group>";
+		};
+		994FC68824C309CB0073E055 /* Initial */ = {
+			isa = PBXGroup;
+			children = (
+				99EB885B24BDAD7D00AD2301 /* ViewController.swift */,
+			);
+			path = Initial;
+			sourceTree = "<group>";
+		};
+		994FC68924C309EC0073E055 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				99E5908224BF07390039FFB6 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		994FC68A24C30A050073E055 /* App realted */ = {
+			isa = PBXGroup;
+			children = (
+				99E5906E24BF048B0039FFB6 /* Localizable.strings */,
+				99EB886324BDAD7F00AD2301 /* Assets.xcassets */,
+				99EB886524BDAD7F00AD2301 /* LaunchScreen.storyboard */,
+				9958049C24BEEE2600190AF8 /* GoogleService-Info.plist */,
+				99EB886024BDAD7D00AD2301 /* GetHospital.xcdatamodeld */,
+			);
+			path = "App realted";
+			sourceTree = "<group>";
+		};
+		99EB884B24BDAD7D00AD2301 = {
+			isa = PBXGroup;
+			children = (
+				99EB885624BDAD7D00AD2301 /* GetHospital */,
+				99EB885524BDAD7D00AD2301 /* Products */,
+				78168E07CD6E8E1F147DE2E6 /* Pods */,
+				09B5510C27409C9DDE41C4DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		99EB885524BDAD7D00AD2301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99EB885424BDAD7D00AD2301 /* GetHospital.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99EB885624BDAD7D00AD2301 /* GetHospital */ = {
+			isa = PBXGroup;
+			children = (
+				994FC68024C3052D0073E055 /* Delegates */,
+				994FC68124C3056D0073E055 /* Search */,
+				994FC68224C305A60073E055 /* Extensions */,
+				994FC68424C308940073E055 /* Map */,
+				994FC68324C308850073E055 /* Manager */,
+				994FC68524C309710073E055 /* Network */,
+				994FC68724C309A00073E055 /* Covid */,
+				994FC68924C309EC0073E055 /* Storyboard */,
+				994FC68824C309CB0073E055 /* Initial */,
+				994FC68A24C30A050073E055 /* App realted */,
+				99EB886824BDAD7F00AD2301 /* Info.plist */,
+			);
+			path = GetHospital;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99EB885324BDAD7D00AD2301 /* GetHospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99EB886B24BDAD7F00AD2301 /* Build configuration list for PBXNativeTarget "GetHospital" */;
+			buildPhases = (
+				717B30BD3F05E631A7A99867 /* [CP] Check Pods Manifest.lock */,
+				99EB885024BDAD7D00AD2301 /* Sources */,
+				99EB885124BDAD7D00AD2301 /* Frameworks */,
+				99EB885224BDAD7D00AD2301 /* Resources */,
+				02C7BCC1BDBCF72CB3223ADC /* [CP] Embed Pods Frameworks */,
+				0BA60928B038B8FD6C8B91E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetHospital;
+			productName = GetHospital;
+			productReference = 99EB885424BDAD7D00AD2301 /* GetHospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99EB884C24BDAD7D00AD2301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Chaithra Shrikrishna";
+				TargetAttributes = {
+					99EB885324BDAD7D00AD2301 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 99EB884F24BDAD7D00AD2301 /* Build configuration list for PBXProject "GetHospital" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99EB884B24BDAD7D00AD2301;
+			productRefGroup = 99EB885524BDAD7D00AD2301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99EB885324BDAD7D00AD2301 /* GetHospital */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99EB885224BDAD7D00AD2301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99E5906F24BF048B0039FFB6 /* Localizable.strings in Resources */,
+				99E5908324BF07390039FFB6 /* Main.storyboard in Resources */,
+				99EB886724BDAD7F00AD2301 /* LaunchScreen.storyboard in Resources */,
+				9958049D24BEEE2600190AF8 /* GoogleService-Info.plist in Resources */,
+				99EB886424BDAD7F00AD2301 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02C7BCC1BDBCF72CB3223ADC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetHospital/Pods-GetHospital-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetHospital/Pods-GetHospital-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetHospital/Pods-GetHospital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BA60928B038B8FD6C8B91E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetHospital/Pods-GetHospital-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetHospital/Pods-GetHospital-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetHospital/Pods-GetHospital-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717B30BD3F05E631A7A99867 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetHospital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99EB885024BDAD7D00AD2301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EB886224BDAD7D00AD2301 /* GetHospital.xcdatamodeld in Sources */,
+				99EB885C24BDAD7D00AD2301 /* ViewController.swift in Sources */,
+				99E5907C24BF06510039FFB6 /* SearchResultTableViewController.swift in Sources */,
+				9955FAC724C07654000E92D9 /* NetworkOperation.swift in Sources */,
+				9955FACB24C07C94000E92D9 /* CovidDetails.swift in Sources */,
+				9954A8B724C04F890058A020 /* LocationManager.swift in Sources */,
+				9954A8B924C071450058A020 /* Covid19ListViewController.swift in Sources */,
+				9955FAC924C078F1000E92D9 /* Errors.swift in Sources */,
+				99EB885824BDAD7D00AD2301 /* AppDelegate.swift in Sources */,
+				99E5907A24BF06510039FFB6 /* MapViewController.swift in Sources */,
+				99EB885A24BDAD7D00AD2301 /* SceneDelegate.swift in Sources */,
+				99E5907F24BF06510039FFB6 /* SuggestionsTableViewController.swift in Sources */,
+				99E5907E24BF06510039FFB6 /* MKPlacemark+Extension.swift in Sources */,
+				99E5907D24BF06510039FFB6 /* PlaceAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99EB886524BDAD7F00AD2301 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99EB886624BDAD7F00AD2301 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99EB886924BDAD7F00AD2301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99EB886A24BDAD7F00AD2301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99EB886C24BDAD7F00AD2301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9950150E2520710491AB38B /* Pods-GetHospital.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NSJV2N665;
+				INFOPLIST_FILE = GetHospital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.GetHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99EB886D24BDAD7F00AD2301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94BDB754505801962A010862 /* Pods-GetHospital.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NSJV2N665;
+				INFOPLIST_FILE = GetHospital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.GetHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99EB884F24BDAD7D00AD2301 /* Build configuration list for PBXProject "GetHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EB886924BDAD7F00AD2301 /* Debug */,
+				99EB886A24BDAD7F00AD2301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99EB886B24BDAD7F00AD2301 /* Build configuration list for PBXNativeTarget "GetHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99EB886C24BDAD7F00AD2301 /* Debug */,
+				99EB886D24BDAD7F00AD2301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99EB886024BDAD7D00AD2301 /* GetHospital.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99EB886124BDAD7D00AD2301 /* GetHospital.xcdatamodel */,
+			);
+			currentVersion = 99EB886124BDAD7D00AD2301 /* GetHospital.xcdatamodel */;
+			path = GetHospital.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 99EB884C24BDAD7D00AD2301 /* Project object */;
+}
